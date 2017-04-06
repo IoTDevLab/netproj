@@ -10,7 +10,7 @@
 - A link to the project repository will be provided.
 - Each __group leader__ upon clicking on the link should create a team with the group name and the project title. Example, `Group 1: Chat Application`.
 - The other group members on visiting the link should join their specific teams. They should avoid creating a team.
-- In all we should be expecting 17 different teams plus one additional team which o one should join.
+- In all we should be expecting 18 different teams plus one additional team which no one should join.
 
 #### Groupings and Assigned Tasks
 
