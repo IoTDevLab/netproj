@@ -34,7 +34,7 @@
 | Group 15      | __PS/ITC/14/0051__, PS/ITC/14/0062, PS/ITC/14/0070, PS/ITC/14/0042| 5     | Group 15: P2P           |
 | Group 16      | __PS/ITC/14/0016__, PS/ITC/14/0056, PS/ITC/14/0054                | 2     | Group 16: SoundServer   |
 | Group 17      | __PS/ITC/14/0050__, PS/ITC/14/0072, PS/ITC/13/0052                | 1     | Group 17: ChatCli       |
-| Group 18      | __PS/ITC/14/0045__, PS/ITC/14/0036, PS/ITC/14/0046                | 6     | Group 17: PyWeb         |
+| Group 18      | __PS/ITC/14/0045__, PS/ITC/14/0036, PS/ITC/14/0046                | 6     | Group 18: PyWeb         |
 
 > Note: Index numbers that are bold within the above table shall serve as your group leaders.
 
