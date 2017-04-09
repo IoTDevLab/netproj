@@ -37,6 +37,8 @@
 
 > Note: Index numbers that are bold within the above table shall serve as your group leaders.
 
+_Hint: We will be accessing each group member based on their contributions to the team's repository. Because of this, each member should create branches and when they have some part of the application working they then merge their branch to the master branch. seek help on creating and deleting branches [here](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) and [there](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)_
+
 
 #### Project Ideas:
 ### 1. Command Line Chat System (ChatCli)
