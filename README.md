@@ -5,6 +5,7 @@
 - Each group is made up of four (4) students maximum. Each group will have a leader and three other students.
 - Each student __MUST__ join exactly one group.
 - Check for your group below and join the corresponding team.
+- Each team should update the `members.txt` file with your their github usernames mapped to their index numbers. Example entry will be `ademangpadi => PS/ITC/11/0035`
 
 #### How to create/join teams
 - A link to the project repository will be provided.
