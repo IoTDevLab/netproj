@@ -5,7 +5,6 @@
 - Each group is made up of four (4) students maximum. Each group will have a leader and three other students.
 - Each student __MUST__ join exactly one group.
 - Check for your group below and join the corresponding team.
-- Each team should update the `members.txt` file with your their github usernames mapped to their index numbers. Example entry will be `ademangpadi => PS/ITC/11/0035`
 
 #### How to create/join teams
 - A link to the project repository will be provided.
@@ -34,11 +33,9 @@
 | Group 15      | __PS/ITC/14/0051__, PS/ITC/14/0062, PS/ITC/14/0070, PS/ITC/14/0042| 5     | Group 15: P2P           |
 | Group 16      | __PS/ITC/14/0016__, PS/ITC/14/0056, PS/ITC/14/0054                | 2     | Group 16: SoundServer   |
 | Group 17      | __PS/ITC/14/0050__, PS/ITC/14/0072, PS/ITC/13/0052                | 1     | Group 17: ChatCli       |
-| Group 18      | __PS/ITC/14/0045__, PS/ITC/14/0036, PS/ITC/14/0046                | 6     | Group 18: PyWeb         |
+| Group 18      | __PS/ITC/14/0045__, PS/ITC/14/0036, PS/ITC/14/0046                | 6     | Group 17: PyWeb         |
 
 > Note: Index numbers that are bold within the above table shall serve as your group leaders.
-
-_Hint: We will be accessing each group member based on their contributions to the team's repository. Because of this, each member should create branches and when they have some part of the application working they then merge their branch to the master branch. seek help on creating and deleting branches [here](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) and [there](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)_
 
 
 #### Project Ideas:
@@ -169,7 +166,7 @@ Develop a system to transfer files over a TCP/IP network socket connection. The 
 
 The client program should accept the following commands:
 
-- __`connect <server> <port>`__ command: list files on server
+- __`connect <server> <port>`__ command: client connect to a server with the serverip and port number. 
     
 ```sh
 client> connect 192.168.5.80 10000
@@ -273,7 +270,7 @@ Develop a peer-to-peer system for file sharing purposes. For a P2P network, ever
 
 
 ### 6. HTTP Web Server (PyWeb)
-Implement a sufficient part of the __HTTP 1.1__ protocol in your web server such that a user could download an unzipped version of [this test website](https://github.com/BlackrockDigital/startbootstrap-new-age/archive/gh-pages.zip) using any of the following web browsers: Chrome, Firefox, Safari, IE, and Edge. Your server should faithfully transmit any file requested by the web browser when downloading the demo website, which may include HTML, CSS, Javascript, or images. Once rendered by the browser, the website hosted by your web server should be indistinguishable when compared to the [site][https://blackrockdigital.github.io/startbootstrap-new-age/] hosted on the original web server. Any broken images, missing text, JavaScript warnings, etc... will be taken as an indication that your server is corrupting the files it transmits.  (Obviously, if the web server is corrupting files, then we cannot expect the web browser to be able to display a perfect-looking website). Your program should do the following:
+Implement a sufficient part of the __HTTP 1.1__ protocol in your web server such that a user could download an unzipped version of [https://github.com/BlackrockDigital/startbootstrap-new-age/archive/gh-pages.zip](this test website) using any of the following web browsers: Chrome, Firefox, Safari, IE, and Edge. Your server should faithfully transmit any file requested by the web browser when downloading the demo website, which may include HTML, CSS, Javascript, or images. Once rendered by the browser, the website hosted by your web server should be indistinguishable when compared to the [https://blackrockdigital.github.io/startbootstrap-new-age/](site) hosted on the original web server. Any broken images, missing text, JavaScript warnings, etc... will be taken as an indication that your server is corrupting the files it transmits.  (Obviously, if the web server is corrupting files, then we cannot expect the web browser to be able to display a perfect-looking website). Your program should do the following:
 
 - You must support web browsers sending requests using version 1.1 of the HTTP protocol, and accept connections (and deliver responses) via TCP.
 - You must support the __GET__ request method from clients. Any other request that is not GET should produce a _`501: Not Implemented`_ error response. This is preferable to silently failing.
